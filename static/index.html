@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Store with AI Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>🛍️ TechStore - Your AI Shopping Assistant</h1>
+        <p>Discover amazing products with our intelligent chatbot!</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Shopping" class="hero-image">
+            <div class="hero-content">
+                <h2>Welcome to TechStore</h2>
+                <p>Your AI-powered shopping assistant is ready to help!</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Chatbot UI -->
+    <div id="chatbot-container" class="chatbot-container">
+        <div id="chatbot-button" class="chatbot-button">
+            💬
+        </div>
+        
+        <div id="chatbot-window" class="chatbot-window hidden">
+            <div class="chatbot-header">
+                <h3>🤖 AI Shopping Assistant</h3>
+                <button id="close-chat" class="close-button">×</button>
+            </div>
+            
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot-message">
+                    Hi! I'm your AI shopping assistant. Ask me about products you're looking for, and I'll recommend the best options from our catalog!
+                </div>
+            </div>
+            
+            <div class="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Ask about products..." maxlength="500">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
