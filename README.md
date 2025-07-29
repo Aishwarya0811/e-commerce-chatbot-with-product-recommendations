@@ -27,8 +27,8 @@
 ### 1. Clone & Install
 
 ```bash
-git clone <repository-url>
-cd "E-commerce Chatbot with Product Recommendations"
+git clone https://github.com/Aishwarya0811/e-commerce-chatbot-with-product-recommendations.git 
+cd e-commerce-chatbot-with-product-recommendations
 pip install -r requirements.txt
 ```
 
